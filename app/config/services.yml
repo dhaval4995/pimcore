@@ -18,6 +18,11 @@ services:
         public: true
         tags: ['controller.service_arguments']
 
+    AppBundle\Document\Areabrick\Iframe:
+        arguments: ['@logger']
+        tags:
+            - { name: pimcore.area.brick, id: iframe }    
+
 
 
     # ---------------------------------------------------------

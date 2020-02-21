@@ -1,9 +1,8 @@
 <?php 
 
 /** 
-* Generated at: 2019-08-28T14:52:33+02:00
-* Changed by: system (0)
-* IP: 192.168.9.95
+* Generated at: 2020-02-19T08:50:59+01:00
+* IP: 127.0.0.1
 */ 
 
 
@@ -12,7 +11,7 @@ return Pimcore\Model\DataObject\ClassDefinition\CustomLayout::__set_state(array(
    'name' => 'Todo',
    'description' => '',
    'creationDate' => 1566996476,
-   'modificationDate' => 1566996753,
+   'modificationDate' => 1582098659,
    'userOwner' => 2,
    'userModification' => 0,
    'classId' => 'CAR',
@@ -22,7 +21,6 @@ return Pimcore\Model\DataObject\ClassDefinition\CustomLayout::__set_state(array(
      'labelWidth' => 100,
      'layout' => NULL,
      'border' => false,
-     'icon' => NULL,
      'name' => 'pimcore_root',
      'type' => NULL,
      'region' => NULL,
@@ -42,7 +40,6 @@ return Pimcore\Model\DataObject\ClassDefinition\CustomLayout::__set_state(array(
          'labelWidth' => 100,
          'layout' => NULL,
          'border' => false,
-         'icon' => NULL,
          'name' => 'Basedata',
          'type' => NULL,
          'region' => NULL,
@@ -164,7 +161,6 @@ return Pimcore\Model\DataObject\ClassDefinition\CustomLayout::__set_state(array(
              'documentTypes' => 
             array (
             ),
-             'lazyLoading' => true,
              'classes' => 
             array (
               0 => 
@@ -208,7 +204,6 @@ return Pimcore\Model\DataObject\ClassDefinition\CustomLayout::__set_state(array(
              'documentTypes' => 
             array (
             ),
-             'lazyLoading' => true,
              'classes' => 
             array (
               0 => 
@@ -323,9 +318,11 @@ return Pimcore\Model\DataObject\ClassDefinition\CustomLayout::__set_state(array(
           )),
         ),
          'locked' => false,
+         'icon' => NULL,
       )),
     ),
      'locked' => false,
+     'icon' => NULL,
   )),
    'default' => 0,
    'dao' => NULL,

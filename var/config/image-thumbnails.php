@@ -1360,5 +1360,27 @@ return [
         "modificationDate" => 1568888282,
         "creationDate" => 1568888270,
         "id" => "events_list"
+    ],
+    "banner" => [
+        "items" => [
+
+        ],
+        "medias" => [
+
+        ],
+        "name" => "banner",
+        "description" => "",
+        "group" => "Areas",
+        "format" => "SOURCE",
+        "quality" => 85,
+        "highResolution" => 0.0,
+        "preserveColor" => FALSE,
+        "preserveMetaData" => FALSE,
+        "rasterizeSVG" => FALSE,
+        "downloadable" => FALSE,
+        "modificationDate" => 1582184540,
+        "creationDate" => 1582184532,
+        "forcePictureTag" => FALSE,
+        "id" => "banner"
     ]
 ];
